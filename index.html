@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de datos dispositivos</title>
+</head>
+
+<body onload="contenidoBody();">
+
+    <h1>Gestion de dispositivos</h1>
+    <br><br><br><br>
+    <hr>
+
+    <table>
+
+        <thead>
+            <tr>
+
+                <th>
+                    Marca
+                </th>
+                <th>
+                    Modelo
+                </th>
+                <th>
+                    Color
+                </th>
+                <th>
+                    Almacenamiento
+                </th>
+                <th>
+                    Procesador
+                </th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+
+        </tbody>
+
+    </table>
+
+    <hr>
+    <div class="consultarObjetos">
+
+        <input type="text" id="consulta" placeholder="Ingresar ID">
+        <button id="button" onclick="consulta()">Consultar</button>
+        <textarea name="" id="marca"></textarea>
+        <textarea name="" id="modelo"></textarea>
+        <textarea name="" id="color"></textarea>
+        <textarea name="" id="almacenamiento"></textarea>
+        <textarea name="" id="procesador"></textarea>
+        <button onclick="modificar()">Modificar Objeto</button>
+        <button onclick="eliminar()">Eliminar</button>
+
+
+    </div>
+    <hr>
+    <h1>Agregar Nuevo Dispositivo</h1>
+
+    <br><br><br><br>
+    <div class="agregarNuevoDispositivo">
+
+        <input type="text" id="marca1" placeholder="Marca">
+        <input type="text" id="modelo1" placeholder="Modelo">
+        <input type="text" id="color1" placeholder="Color">
+        <input type="text" id="almacenamiento1" placeholder="Almacenamiento">
+        <input type="text" id="procesador1" placeholder="Procesador">
+        <button onclick="agregarNuevoDispositivo()">Agregar</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
