@@ -1,6 +1,6 @@
 # 📱 Gestión de Dispositivos - API Fake
 
-Este proyecto simula la gestión de una base de datos de dispositivos móviles utilizando una **API Fake** (JSON Server). Podés **consultar**, **modificar**, **eliminar** y **agregar** dispositivos a través de una interfaz web amigable y responsive.
+Este proyecto simula la gestión de una base de datos de dispositivos móviles utilizando una **API Fake** (JSON Server). Podés **consultar**, **modificar**, **eliminar** y **agregar** dispositivos a través de una interfaz web.
 
 ---
 
